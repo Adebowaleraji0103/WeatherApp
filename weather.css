@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+main {
+  width: 280px;
+  height: 100%;
+  box-shadow: 1px 1px 10px gray;
+  padding: 20px;
+  border-radius: 10px;
+}
+.h2 {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  color: red;
+  margin-bottom: 10px;
+  align-items: center;
+}
+form {
+  display: flex;
+  justify-content: start;
+  margin-bottom: 15px;
+}
+form input {
+  height: 30px;
+  width: 400px;
+  padding: 10px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  outline: none;
+  border: 1px solid lightgrey;
+}
+.svgButton {
+  /* display: flex; */
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border: none;
+}
+.svgButton button {
+  cursor: pointer;
+}
+
+.properties{
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 30px;
+  /* font-weight: lighter; */
+  font-family: sans-serif;
+  font-size: 13px;
+  color: green;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btn button {
+  align-items: center;
+  padding: 5px 15px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
