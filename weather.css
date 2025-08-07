@@ -23,7 +23,7 @@ main {
   justify-content: center;
 }
 h2 {
-  color: blue;
+  color: rgb(93, 93, 226);
   margin-bottom: 10px;
   align-items: center;
 }
@@ -45,7 +45,7 @@ form input {
   /* display: flex; */
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
-  background-color: red;
+  background-color: rgb(93, 93, 226);
   color: white;
   padding: 5px;
   font-weight: bold;
@@ -75,7 +75,7 @@ form input {
 .btn button {
   align-items: center;
   padding: 5px 15px;
-  background-color: red;
+  background-color: rgb(93, 93, 226);
   color: white;
   font-weight: bold;
   border-radius: 8px;
