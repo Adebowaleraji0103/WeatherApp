@@ -46,5 +46,7 @@ formElement.addEventListener("submit", async (e) => {
 
 });
 function clearAll(){
-  inputElement.value = ""
+  inputElement.value = "";
+  cityWeather.textContent = "";
+
 }
