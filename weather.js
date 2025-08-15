@@ -49,5 +49,6 @@ function clearAll(){
   inputElement.value = "";
   cityWeather.textContent = "";
   cityNameElement.textContent = "";
+  cityTemperature.textContent = "";
 
 }
