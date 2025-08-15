@@ -51,4 +51,5 @@ function clearAll(){
   cityNameElement.textContent = "";
   cityTemperature.textContent = "";
   cityHumidity.textContent = "";
+  cityWind.textContent = "";
 }
